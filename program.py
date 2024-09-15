@@ -1,8 +1,8 @@
 import requests, time
 
 
-tokenlist = open("account_token.txt").read().splitlines()
-exceptions = open("dont-leave.txt").read().splitlines()
+tokenlist = open("tokens.txt").read().splitlines()
+exceptions = open("exceptions.txt").read().splitlines()
 
 ratelimit = 0
 
